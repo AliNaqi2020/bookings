@@ -35,14 +35,4 @@ class Reservation(Document):
 						# Update the document's status
 						new_reservation.status = "Checked In"
 
-						# Save the document
-						new_reservation.save()
-
-						# Call the validate function during the 'save' method
-						new_reservation.run_method("validate", method="save")
-
-						# Submit the document
-						new_reservation.submit()
-
-						# Call the validate function during the 'submit' method
-						new_reservation.run_method("validate", method="submit")
+					
