@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-12 10:17:49.636396",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reservation_id",
+  "check_in_date",
+  "check_out_date",
+  "guest",
+  "room_allocation",
+  "status",
+  "nights"
+ ],
+ "fields": [
+  {
+   "fieldname": "reservation_id",
+   "fieldtype": "Data",
+   "label": "Reservation Id"
+  },
+  {
+   "fieldname": "check_in_date",
+   "fieldtype": "Date",
+   "label": "Check In Date"
+  },
+  {
+   "fieldname": "check_out_date",
+   "fieldtype": "Date",
+   "label": "Check Out Date"
+  },
+  {
+   "fieldname": "guest",
+   "fieldtype": "Data",
+   "label": "Guest"
+  },
+  {
+   "fieldname": "room_allocation",
+   "fieldtype": "Data",
+   "label": "Room Allocation"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "status",
+   "options": "Cancelled\nProcessed\nReserved"
+  },
+  {
+   "fieldname": "nights",
+   "fieldtype": "Int",
+   "label": "nights"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-12 10:28:52.575168",
+ "modified_by": "Administrator",
+ "module": "bookings",
+ "name": "Reservation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
