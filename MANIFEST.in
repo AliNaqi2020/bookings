@@ -15,4 +15,4 @@ recursive-include bookings *.png
 recursive-include bookings *.py
 recursive-include bookings *.svg
 recursive-include bookings *.txt
-recursive-exclude bookings *.pyc
+recursive-exclude bookings *.pysc
