@@ -1,0 +1,174 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-15 14:29:43.325941",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "gender",
+  "date_of_birth",
+  "nationality",
+  "contact_number",
+  "email",
+  "column_break_vfihq",
+  "address_line_1",
+  "address_line_2",
+  "city",
+  "state",
+  "country",
+  "postal_code",
+  "section_break_8jev2",
+  "passport_number",
+  "check_in_date",
+  "check_out_date",
+  "room_number",
+  "reservation_id",
+  "payment_status",
+  "payment_method",
+  "billing_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Phone",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_vfihq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1"
+  },
+  {
+   "fieldname": "address_line_2",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Int",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "section_break_8jev2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Int",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "check_in_date",
+   "fieldtype": "Date",
+   "label": "Check in Date"
+  },
+  {
+   "fieldname": "check_out_date",
+   "fieldtype": "Date",
+   "label": "Check out Date"
+  },
+  {
+   "fieldname": "room_number",
+   "fieldtype": "Int",
+   "label": "Room Number"
+  },
+  {
+   "fieldname": "reservation_id",
+   "fieldtype": "Data",
+   "label": "Reservation ID"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Data",
+   "label": "Payment Status"
+  },
+  {
+   "fieldname": "payment_method",
+   "fieldtype": "Data",
+   "label": "Payment Method"
+  },
+  {
+   "fieldname": "billing_details",
+   "fieldtype": "Data",
+   "label": "Billing Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-15 14:29:43.325941",
+ "modified_by": "Administrator",
+ "module": "bookings",
+ "name": "Guest",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
