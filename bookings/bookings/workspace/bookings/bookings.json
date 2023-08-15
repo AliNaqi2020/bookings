@@ -1,0 +1,80 @@
+{
+ "charts": [
+  {
+   "chart_name": "Check Out",
+   "label": "Check Out"
+  },
+  {
+   "chart_name": "Check In",
+   "label": "Check In"
+  },
+  {
+   "chart_name": "Reservation",
+   "label": "Reservations"
+  }
+ ],
+ "content": "[{\"id\":\"WSVVxcLFA4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Bookings</span>\",\"col\":12}},{\"id\":\"Z2YAd06Wdw\",\"type\":\"card\",\"data\":{\"card_name\":\"Reservation\",\"col\":12}},{\"id\":\"P1wYjCA8Px\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Check Out\",\"col\":12}},{\"id\":\"oUktebAwG8\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Check In\",\"col\":12}},{\"id\":\"QVSJrXUXoy\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Reservations\",\"col\":12}}]",
+ "creation": "2023-08-15 13:57:40.029722",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table_2",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Bookings",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reservation",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reservation",
+   "link_count": 0,
+   "link_to": "Reservation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Check In ",
+   "link_count": 0,
+   "link_to": "Check In",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Check Out",
+   "link_count": 0,
+   "link_to": "Check Out",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-08-15 14:19:50.051464",
+ "modified_by": "Administrator",
+ "module": "bookings",
+ "name": "Bookings",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 16.0,
+ "shortcuts": [],
+ "title": "Bookings"
+}
