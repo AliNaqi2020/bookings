@@ -12,6 +12,8 @@ frappe.ui.form.on('Reservation', {
 });
 
 function calculateNights(frm) {
+    console.log("Testing.....");
+    
     if (frm.doc.check_in && frm.doc.check_out) {
         var checkInDate = new Date(frm.doc.check_in);
         var checkOutDate = new Date(frm.doc.check_out);
@@ -19,6 +21,7 @@ function calculateNights(frm) {
         var nights = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
         frm.set_value('nights', nights);
     }
+    console.log("Testing.....");
 }
 
 // Testing Commit

@@ -6,8 +6,9 @@
 
 frappe.ui.form.on('Guest', {
     refresh: function(frm) {
-        // Your custom client-side logic here
-        // For example, you can show/hide fields based on conditions
+           console.log("Testing.....");
+           console.log("Testing.....");
+           console.log("Testing.....");
     },
 
     calculateTotalAmount: function(frm) {
