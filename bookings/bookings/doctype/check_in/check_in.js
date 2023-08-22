@@ -6,5 +6,8 @@ frappe.ui.form.on('Check In', {
            console.log("Testing.....");
 		   console.log("Testing.....");
 		   console.log("Testing.....");
+		   console.log("Arsalan.....");
+		   // Ye Testing kly Likha a .............
+		   console.log("Arsalan.....");
 	}
 });
